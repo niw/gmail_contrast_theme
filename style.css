@@ -1,0 +1,10 @@
+/* Fixed width for textarea */
+textarea.dV {
+	font-family: "Osaka-Mono" !important;
+}
+
+/* Hide sponsers' links */
+td.tELAdc div.nH div.oM,
+td.tELAdc div.nH.u8 {
+	display: none;
+}
