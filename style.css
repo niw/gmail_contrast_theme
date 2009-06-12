@@ -1,5 +1,6 @@
 /* Fixed width for textarea */
-textarea.dV {
+textarea.dV,
+div.gt {
 	font-family: "Osaka-Mono" !important;
 }
 
