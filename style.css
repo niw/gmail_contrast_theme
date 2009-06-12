@@ -9,3 +9,8 @@ td.tELAdc div.nH div.oM,
 td.tELAdc div.nH.u8 {
 	display: none;
 }
+
+/* Hide Google services */
+div#gbar {
+	display: none;
+}
