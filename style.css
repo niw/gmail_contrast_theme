@@ -5,12 +5,24 @@ div.gt {
 }
 
 /* Hide sponsers' links */
-td.tELAdc div.nH div.oM,
-td.tELAdc div.nH.u8 {
-	display: none;
+div.diLZtc div.nH div.oM,
+div.diLZtc div.nH.u8 {
+	display: none !important;
 }
 
 /* Hide Google services */
 div#gbar {
+	display: none;
+}
+
+/* cite color */
+div.im {
+	color: #5229A3 !important;
+	border-left: 2px solid #5229A3;
+	padding-left: 4px;
+	margin: 8px 0;
+}
+div.im br:first-child,
+div.im br:last-child {
 	display: none;
 }
