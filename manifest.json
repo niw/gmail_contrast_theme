@@ -1,0 +1,16 @@
+{
+  "name": "Gmail New Look Tweak",
+  "version": "0.1.0",
+  "description": "Gmail New Look Tweak",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://mail.google.com/mail/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "all_frames": true
+    }
+  ]
+}
