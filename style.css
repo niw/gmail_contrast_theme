@@ -26,3 +26,8 @@ div.im br:first-child,
 div.im br:last-child {
 	display: none;
 }
+
+/* FIX: horizontal scroll bug. */
+td.Bu div.Bt {
+  display: none !important;
+}
