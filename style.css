@@ -1,29 +1,29 @@
 /* Fixed width for textarea */
 textarea.Ak,
 div.gt {
-	font-family: "Osaka-Mono" !important;
+  font-family: "Osaka-Mono" !important;
 }
 
 /* Hide sponsers' links */
 div.diLZtc div.FDerDe {
-	display: none !important;
+  display: none !important;
 }
 
 /* Hide Google services */
 div#gbar {
-	display: none;
+  display: none;
 }
 
 /* cite color */
 div.im {
-	color: #5229A3 !important;
-	border-left: 2px solid #5229A3;
-	padding-left: 4px;
-	margin: 8px 0;
+  color: #5229A3 !important;
+  border-left: 2px solid #5229A3;
+  padding-left: 4px;
+  margin: 8px 0;
 }
 div.im br:first-child,
 div.im br:last-child {
-	display: none;
+  display: none;
 }
 
 /* FIX: horizontal scroll bug. */
