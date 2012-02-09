@@ -32,3 +32,78 @@ div.im br:last-child {
 td.Bu div.Bt {
   display: none !important;
 }
+
+/* Fix new Gmail interface */
+/* Add border, shadow to the scolling panel */
+.aeF {
+  border-left: 1px solid #D8D8D8 !important;
+  border-right: 1px solid #D8D8D8 !important;
+  border-bottom: 1px solid #D8D8D8 !important;
+  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  -box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+}
+/* Add background to alert like telling loading external images. */
+.h9 {
+  background: whiteSmoke !important;
+  margin: 10px 10px 10px 0 !important;
+  border: none !important;
+}
+/* Add background color and spaces for each mail header field */
+.h7 .gE {
+  padding: 10px 0 !important;
+  margin: 0 10px 10px 0;
+  border-bottom: 1px dotted #D8D8D8;
+}
+/* Add border between the right sidebar and the thread */
+.Bu .if {
+  border-right: 1px solid #D8D8D8;
+}
+/* Adjust spaces around the thread title */
+h1.ha {
+  margin: 0;
+  padding: 10px;
+}
+/* Add extra padding around reply text box */
+.gB {
+  padding: 10px !important;
+}
+/* Adjust spaces around header in Inbox */
+.Wg {
+  padding: 2px !important;
+}
+/* Adjust spaces around each left side menu item */
+.TN {
+  padding: 2px 0 !important;
+}
+/* Profile picture frame */
+img.ajn {
+  background-color: white !important;
+  padding: 2px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #D8D8D8;
+  -webkit-box-shadow: 0 0 1px #FAFAFA;
+}
+/* Background color */
+.no, .aeJ {
+  background-color: #FAFAFA !important;
+}
+.w-asV .no, .G-atb, .aeF {
+  background-color: white !important;
+}
+.G-atb {
+  margin-top: 0 !important;
+}
+/* Settings tab */
+.fY {
+  border-bottom: 1px solid #D8D8D8;
+}
+.fZ {
+  border-top: 1px solid #D8D8D8;
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
+  margin-bottom: -1px !important;
+}
+.fZ, .f1 {
+  padding: 5px 10px !important;
+}
