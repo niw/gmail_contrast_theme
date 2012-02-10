@@ -72,7 +72,10 @@ td.Bu div.Bt {
 .no, .aeJ {
   background-color: #FAFAFA !important;
 }
-.w-asV .no, .G-atb, .aeF {
+.w-asV .no {
+  background-color: whiteSmoke !important;
+}
+.G-atb, .aeF {
   background-color: white !important;
 }
 .G-atb {
@@ -85,6 +88,10 @@ td.Bu div.Bt {
   height: 22px !important;
 }
 
+/* Adjust padding inside menus */
+.J-M {
+  padding: 4px !important;
+}
 /* }}} */
 
 /* Email threads {{{ */
