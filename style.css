@@ -137,6 +137,16 @@ h1.ha {
   height: 34px !important;
 }
 
+/* Change colors of reply window */
+.ej .fN,
+.ej .eh .dW,
+.hx .h7 .mC {
+  background-color: white !important;
+}
+.ej .eJ .cf {
+  background-color: transparent !important;
+}
+
 /* Remove minumum hiehgt from the thread */
 .Bu .nH .no .nH.nn div {
   height: auto !important;
