@@ -68,18 +68,12 @@ td.Bu div.Bt {
   padding-bottom: 0 !important;
 }
 
-/* Add background color */
-.no, .aeJ {
+/* Change background color */
+.wl, .aeJ {
   background-color: #FAFAFA !important;
 }
-.w-asV .no {
-  background-color: whiteSmoke !important;
-}
-.G-atb, .aeF {
+.aeF {
   background-color: white !important;
-}
-.G-atb {
-  margin-top: 0 !important;
 }
 
 /* Make buttons more slim */
