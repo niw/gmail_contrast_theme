@@ -52,9 +52,9 @@ td.Bu div.Bt {
 
 /* Add borders and shadow to the scrolling right panel. */
 .aeF {
-  border-left: 1px solid #D8D8D8 !important;
-  border-right: 1px solid #D8D8D8 !important;
-  border-bottom: 1px solid #D8D8D8 !important;
+  border-left: 1px solid #CCC !important;
+  border-right: 1px solid #CCC !important;
+  border-bottom: 1px solid #CCC !important;
   -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
   -moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
   -box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
@@ -120,11 +120,16 @@ h1.ha {
   margin: 4px;
 }
 .h7 .G2 {
-  border: 1px solid #D8D8D8 !important;
+  border: 1px solid #CCC !important;
+  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  -box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  /*
   -webkit-border-radius: 3px !important;
   -webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
   -moz-box-shadow: 0 0 2px rgba(0,0,0,.1);
   -box-shadow: 0 0 2px rgba(0,0,0,.1);
+  */
 }
 
 /* Make reply field smaller, add extra padding */
@@ -151,6 +156,27 @@ h1.ha {
 /* Remove minumum hiehgt from the thread */
 .Bu .nH .no .nH.nn div {
   height: auto !important;
+}
+
+/* Move star from right to left, make closed email slim */
+.lHQn1d {
+  position: absolute;
+  left: 8px;
+  top: 20px;
+}
+.aju {
+  margin: 0px 10px 0px 26px;
+  line-height: 0 !important;
+  padding: 7px 0 !important;
+}
+.kv .lHQn1d {
+  top: 14px;
+}
+.kv .aju {
+  padding: 2px 0 !important;
+}
+.kv .hI {
+  padding: 4px !important;
 }
 
 /* }}} */
@@ -227,6 +253,11 @@ img.ajn {
 /* Remove additional spaces from the chat list */
 .dI, .s .r, .uJ, .vH {
   width: 142px !important;
+}
+
+/* Make Compose button large */
+.z0 .T-I {
+  min-width: 124px !important;
 }
 
 /* }}} */
