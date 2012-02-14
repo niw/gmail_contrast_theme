@@ -1,5 +1,5 @@
 /*
- * User Stylesheet for Gmail
+ * User Stylesheet for Gmail New Look
  * Yoshimasa Niwa <niw@niw.at>
  */
 
@@ -27,7 +27,7 @@ div#gbar {
 }
 /* }}} */
 
-/* Cite color {{{ */
+/* Cite Color {{{ */
 div.im {
   color: #5229A3 !important;
   border-left: 2px solid #5229A3;
@@ -40,13 +40,13 @@ div.im br:last-child {
 }
 /* }}} */
 
-/* FIX: horizontal scroll bug. (Old Look) {{{ */
+/* FIX: horizontal scroll bug. (for Old Look) {{{ */
 td.Bu div.Bt {
   display: none !important;
 }
 /* }}} */
 
-/* Fix new Gmail interface {{{ */
+/* Customize Gmail interface {{{ */
 
 /* Overall styling and coloring {{{ */
 
