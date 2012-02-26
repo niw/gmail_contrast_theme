@@ -215,6 +215,16 @@ img.ajn {
 
 /* }}} */
 
+/* Composer {{{ */
+
+/* Hide scrollbar caused by borders, adjust spaces around composer. */
+.fN {
+  border: none !important;
+  padding: 10px !important;
+}
+
+/* }}} */
+
 /* Inbox {{{ */
 
 /* Adjust spaces around headers in Inbox */
