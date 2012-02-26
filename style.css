@@ -179,6 +179,12 @@ h1.ha {
   padding: 4px !important;
 }
 
+/* Web Ticker */
+.mq {
+  margin: 0 !important;
+  border: none !important;
+}
+
 /* }}} */
 
 /* Email body and header {{{ */
