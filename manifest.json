@@ -1,7 +1,7 @@
 {
-  "name": "Gmail New Look Tweak",
+  "name": "Gmail Contrast New Look",
   "version": "0.1.0",
-  "description": "Gmail New Look Tweak",
+  "description": "Make default Gmail New Look (2012) more readable by tweaking contrast, margins and borders.",
   "content_scripts": [
     {
       "matches": [
