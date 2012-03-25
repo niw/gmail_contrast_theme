@@ -202,7 +202,7 @@ h1.ha {
 }
 
 /* Add background to the alert message in the mail */
-.h9 {
+.h9, .gS {
   background: whiteSmoke !important;
   margin: 10px 10px 10px 0 !important;
   border: none !important;
