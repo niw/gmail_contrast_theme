@@ -41,9 +41,11 @@ div.im br:last-child {
 /* }}} */
 
 /* FIX: horizontal scroll bug. (for Old Look) {{{ */
+/*
 td.Bu div.Bt {
   display: none !important;
 }
+*/
 /* }}} */
 
 /* Customize Gmail interface {{{ */
