@@ -210,9 +210,14 @@ h1.ha {
 
 /* Add background to the alert message in the mail */
 .B0, .acS, .bC, .gY, .adc, .gS, .ac7, .h9, .adI {
-  background: whiteSmoke !important;
-  margin: 10px 10px 10px 0 !important;
+  background-color: whiteSmoke !important;
+  margin: 0 -10px 10px -30px !important;
+  padding: 2px 10px 2px 30px !important;
   border: none !important;
+}
+.tx78Ic .adI {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
 }
 
 /* Add a frame to the profile picture */
