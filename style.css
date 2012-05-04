@@ -236,6 +236,11 @@ img.ajn {
   padding: 10px !important;
 }
 
+/* Adjust composer button position */
+.ej .aay {
+  padding-top: 12px;
+}
+
 /* }}} */
 
 /* Inbox {{{ */
