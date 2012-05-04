@@ -71,12 +71,17 @@ td.Bu div.Bt {
 }
 
 /* Change background color */
-.wl, .aeJ {
+.aeJ {
+  background-color: transparent !important;
+}
+/* Only works for the default theme, disabled for now.
+.wl {
   background-color: #FAFAFA !important;
 }
 .aeF {
   background-color: white !important;
 }
+*/
 
 /* Make buttons more slim */
 .T-I {
@@ -248,6 +253,7 @@ img.ajn {
 /* Left side menu {{{ */
 
 /* Make selected mene item red */
+/* Only works for the default theme, disabled for now.
 .TK .ain {
   border: none !important;
 }
@@ -257,6 +263,7 @@ img.ajn {
 .TK .nZ .n0 {
   color: white !important;
 }
+*/
 
 /* Adjust spaces of each menu item */
 .TK .TO .TN {
