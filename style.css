@@ -168,22 +168,25 @@ h1.ha {
 /* Move star from right to left, make closed email slim */
 .lHQn1d, .zd {
   position: absolute;
-  left: 8px;
-  top: 20px;
+  left: 6px;
+  top: 18px;
 }
 .aju {
-  margin: 0px 10px 0px 26px;
+  margin: 0px 5px 0px 30px;
   line-height: 0 !important;
   padding: 7px 0 !important;
 }
+.h7 .aju {
+  margin-top: 3px !important;
+}
 .kv .lHQn1d {
-  top: 14px;
+  top: 11px;
 }
 .kv .aju {
-  padding: 2px 0 !important;
+  padding: 3px 4px 3px 0 !important;
 }
 .kv .hI {
-  padding: 4px !important;
+  padding: 10px !important;
 }
 
 /* Web Ticker */
@@ -199,13 +202,19 @@ h1.ha {
 /* Add a border and spaces to the email header */
 .h7 .gE {
   padding: 10px 0 !important;
-  margin: 0 10px 10px 0;
+  margin: 0 0 10px 0 !important;
   border-bottom: 1px dotted #D8D8D8;
 }
 
 /* Adjust margins in the email */
-.hx .gs {
-  margin-left: 0 !important;
+.h7 .gs {
+  margin: 0 10px 10px 30px !important;
+}
+.hx .ii {
+  margin: 0 !important;
+}
+.hx .adn, .hx .adu, .hx .adf {
+  margin-left: -5px !important;
 }
 
 /* Add background to the alert message in the mail */
