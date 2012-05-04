@@ -255,6 +255,31 @@ img.ajn {
   padding-top: 12px;
 }
 
+/* Popup composer */
+.mD {
+  float: left;
+  margin-bottom: -1px !important;
+}
+.mC .mD {
+  border-color: #D8D8D8 !important;
+  background-color: whiteSmoke !important;
+}
+.mE {
+  margin: 0 15px;
+}
+.G-as7-atb {
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
+  border-top: 1px solid #D8D8D8 !important;
+  border-bottom: none !important;
+}
+.eh .dW {
+  padding: 8px !important;
+}
+.aaM .fN {
+  border: none !important;
+}
+
 /* }}} */
 
 /* Inbox {{{ */
