@@ -256,16 +256,16 @@ img.ajn {
 }
 
 /* Popup composer */
-.mD {
+.mE {
+  margin: 0 15px;
+}
+.mE .mD {
   float: left;
   margin-bottom: -1px !important;
 }
-.mC .mD {
+.mE .mC .mD {
   border-color: #D8D8D8 !important;
   background-color: whiteSmoke !important;
-}
-.mE {
-  margin: 0 15px;
 }
 .G-as7-atb {
   margin: 0 0 10px 0 !important;
