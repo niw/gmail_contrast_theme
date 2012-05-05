@@ -6,8 +6,9 @@
 /* Using fixed width font {{{ */
 /*
 textarea.Ak,
-div.gt {
-  font-family: "Osaka-Mono" !important;
+.gs .adP {
+  font-family: monospace !important;
+  font-size: 100% !important;
 }
 */
 /* }}} */
