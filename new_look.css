@@ -26,14 +26,6 @@
 .aeJ {
   background-color: transparent !important;
 }
-/* Only works for the default theme, disabled for now.
-.wl {
-  background-color: #FAFAFA !important;
-}
-.aeF {
-  background-color: white !important;
-}
-*/
 
 /* Make buttons more slim */
 .T-I {
@@ -247,19 +239,6 @@ img.ajn {
 /* }}} */
 
 /* Left side menu {{{ */
-
-/* Make selected mene item red */
-/* Only works for the default theme, disabled for now.
-.TK .ain {
-  border: none !important;
-}
-.TK .nZ {
-  background-color: #DD4B39 !important;
-}
-.TK .nZ .n0 {
-  color: white !important;
-}
-*/
 
 /* Adjust spaces of each menu item */
 .TK .TO .TN {

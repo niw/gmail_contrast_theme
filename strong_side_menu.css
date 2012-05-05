@@ -1,0 +1,10 @@
+/* Make selected mene item red */
+.TK .ain {
+  border: none !important;
+}
+.TK .nZ {
+  background-color: #DD4B39 !important;
+}
+.TK .nZ .n0 {
+  color: white !important;
+}

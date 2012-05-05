@@ -55,6 +55,10 @@ body {
   padding: 15px;
 }
 
+small {
+  color: #999;
+}
+
 h1 {
   margin: 0;
   font-weight: bold;
@@ -64,7 +68,6 @@ h1 {
 h1 small {
   font-size: 14px;
   font-weight: normal;
-  color: #999;
 }
 
 fieldset {
@@ -129,6 +132,32 @@ fieldset {
             <input id="styled_quotation" type="checkbox">
             <label for="styled_quotation">
               Add a border to quotation like Mail.app.
+            </label>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <label for="light_gray_background">Light gray background</label>
+          </div>
+          <div class="controls">
+            <input id="light_gray_background" type="checkbox">
+            <label for="light_gray_background">
+              Use light gray for background color<br>
+              <small>This may conflict with non default themes.</small>
+            </label>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <label for="strong_side_menu">Strong side menu</label>
+          </div>
+          <div class="controls">
+            <input id="strong_side_menu" type="checkbox">
+            <label for="strong_side_menu">
+              Use red background color for selected item in side menu, like old look.<br>
+              <small>This may conflict with non default themes.</small>
             </label>
           </div>
         </div>
