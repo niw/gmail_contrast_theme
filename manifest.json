@@ -2,15 +2,24 @@
   "name": "Gmail Contrast New Look",
   "version": "0.1.0",
   "description": "Make default Gmail New Look (2012) more readable by tweaking contrast, margins and borders.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
   "content_scripts": [
     {
       "matches": [
         "*://mail.google.com/mail/*"
       ],
-      "css": [
-        "style.css"
-      ],
-      "all_frames": true
+      "js": [
+        "content.js"
+      ]
     }
-  ]
+  ],
+  "permissions": [
+    "tabs",
+    "*://mail.google.com/mail/*"
+  ],
+  "options_page": "options.html"
 }
