@@ -1,0 +1,42 @@
+/*
+ * Tweak Gmail
+ */
+
+/* Using fixed width font {{{ */
+/*
+textarea.Ak,
+.gs .adP {
+  font-family: monospace !important;
+  font-size: 100% !important;
+}
+*/
+/* }}} */
+
+/* Hide Google services {{{ */
+div#gbar {
+  display: none;
+}
+/* }}} */
+
+/* Cite Color {{{ */
+div.im {
+  color: #5229A3 !important;
+  border-left: 2px solid #5229A3;
+  padding-left: 4px;
+  margin: 8px 0;
+}
+div.im br:first-child,
+div.im br:last-child {
+  display: none;
+}
+/* }}} */
+
+/* FIX: horizontal scroll bug. (for Old Look) {{{ */
+/*
+td.Bu div.Bt {
+  display: none !important;
+}
+*/
+/* }}} */
+
+/* vim:set foldmethod=marker: */

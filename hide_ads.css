@@ -1,0 +1,14 @@
+/*
+ * Hide Ads on Gmail
+ */
+
+/* Hide sponsers' links {{{ */
+div.nH div.aoh {
+  display: none !important;
+}
+td.Bu div.PS {
+  display: none !important;
+}
+/* }}} */
+
+/* vim:set foldmethod=marker: */
