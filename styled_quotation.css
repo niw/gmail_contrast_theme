@@ -1,0 +1,11 @@
+/* Styled quotation */
+div.im {
+  color: #5229A3 !important;
+  border-left: 2px solid #5229A3;
+  padding-left: 4px;
+  margin: 8px 0;
+}
+div.im br:first-child,
+div.im br:last-child {
+  display: none;
+}

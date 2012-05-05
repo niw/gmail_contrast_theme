@@ -1,0 +1,6 @@
+/* Using fixed width font */
+textarea.Ak,
+.gs .adP {
+  font-family: monospace !important;
+  font-size: 100% !important;
+}
