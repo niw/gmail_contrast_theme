@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gmail Contrast New Look - Options</title>
+<title>Options - Gmail Contrast New Look</title>
 
 <script>
 !function() {
@@ -56,7 +56,11 @@ body {
 }
 
 small {
+  font-size: 100%;
   color: #999;
+}
+p {
+  margin: 10px 0;
 }
 
 h1 {
@@ -85,9 +89,30 @@ fieldset {
   float: left;
   width: 140px;
   text-align: right;
+  font-weight: bold;
 }
 .controls {
   margin-left: 160px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999;
+  padding: 1px 4px 2px;
+  border-radius: 3px;
+}
+.label-important {
+  background-color: #B94A48;
 }
 </style>
 </head>
@@ -102,68 +127,41 @@ fieldset {
       <fieldset>
         <div class="control-group">
           <div class="control-label">
-            <label for="hide_ads">Hide Ads</label>
+            Additional Styles
           </div>
+
           <div class="controls">
-            <input id="hide_ads" type="checkbox">
             <label for="hide_ads">
+              <input id="hide_ads" type="checkbox">
               Hide Ads as much as possible.
             </label>
-          </div>
-        </div>
 
-        <div class="control-group">
-          <div class="control-label">
-            <label for="monospace_font">Monospace font</label>
-          </div>
-          <div class="controls">
-            <input id="monospace_font" type="checkbox">
             <label for="monospace_font">
+              <input id="monospace_font" type="checkbox">
               Use monospace font for mail body and editor.
             </label>
-          </div>
-        </div>
 
-        <div class="control-group">
-          <div class="control-label">
-            <label for="styled_quotation">Styled quotation</label>
-          </div>
-          <div class="controls">
-            <input id="styled_quotation" type="checkbox">
             <label for="styled_quotation">
+              <input id="styled_quotation" type="checkbox">
               Add a border to quotation like Mail.app.
             </label>
-          </div>
-        </div>
 
-        <div class="control-group">
-          <div class="control-label">
-            <label for="light_gray_background">Light gray background</label>
-          </div>
-          <div class="controls">
-            <input id="light_gray_background" type="checkbox">
             <label for="light_gray_background">
+              <input id="light_gray_background" type="checkbox">
               Use light gray for background color<br>
-              <small>This may conflict with non default themes.</small>
+              <small><span class="label">Note</span> This may conflict with non default themes.</small>
             </label>
-          </div>
-        </div>
 
-        <div class="control-group">
-          <div class="control-label">
-            <label for="strong_side_menu">Strong side menu</label>
-          </div>
-          <div class="controls">
-            <input id="strong_side_menu" type="checkbox">
             <label for="strong_side_menu">
+              <input id="strong_side_menu" type="checkbox">
               Use red background color for selected item in side menu, like old look.<br>
-              <small>This may conflict with non default themes.</small>
+              <small><span class="label">Note</span> This may conflict with non default themes.</small>
             </label>
           </div>
         </div>
       </fieldset>
 
-      <p>After changing these options, you need to reload Gmail tabs.</p>
+      <p><span class="label label-important">Note</span> After changing these options, you need to reload Gmail tabs.</p>
     </div>
 
     <div class="footer_space"></div>
@@ -171,7 +169,7 @@ fieldset {
 
   <div class="footer">
     <div class="content">
-      Gmail Contrast New Look &mdash; Version 0.1.0
+      Version 0.1.0 &mdash; Copyright &copy; 2012 Yoshimasa Niwa
     </div>
   </div>
 </body>
