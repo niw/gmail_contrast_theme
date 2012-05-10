@@ -1,4 +1,7 @@
-/* Using fixed width font */
+/*
+ * Use fixed width font
+ */
+
 textarea.Ak,
 .gs .adP {
   font-family: monospace !important;
