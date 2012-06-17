@@ -1,6 +1,8 @@
 {
   "name": "Gmail Contrast New Look",
   "version": "0.1.0",
+  "manifest_version": 2,
+
   "description": "Make default Gmail New Look (2012) more readable by tweaking contrast, margins and borders.",
   "background": {
     "scripts": [
