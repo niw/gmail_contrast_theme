@@ -19,6 +19,7 @@
   min-height: 0 !important;
 }
 .l2 {
+  margin: 4px;
   padding-bottom: 0 !important;
 }
 
@@ -75,23 +76,27 @@ h1.ha {
   -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
   -moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
   -box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
-  /*
-  -webkit-border-radius: 3px !important;
-  -webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
-  -moz-box-shadow: 0 0 2px rgba(0,0,0,.1);
-  -box-shadow: 0 0 2px rgba(0,0,0,.1);
-  */
 }
 
 /* Make reply field smaller, add extra padding */
-.ac5 .gB {
-  padding: 10px !important;
-  background-color: whiteSmoke;
-  -webkit-border-bottom-left-radius: 3px !important;
-  -webkit-border-bottom-right-radius: 3px !important;
+.hx .h7 .gA {
+  border-top: 1px solid #D8D8D8;
+  padding: 8px !important;
+  background-color: whiteSmoke !important;
+}
+.hx .ie .xu .iq,
+.gB {
+  border-top: none !important;
+  padding: 0 !important;
+}
+.aC3 {
+  background-color: whiteSmoke !important;
 }
 .amn {
   height: 34px !important;
+}
+.aoY {
+  padding: 0 8px 1px 1px !important;
 }
 
 /* Change colors of reply window */
