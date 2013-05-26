@@ -80,20 +80,36 @@ h1.ha {
 
 /* Make reply field smaller, add extra padding */
 .hx .h7 .gA {
-  border-top: 1px solid #D8D8D8;
-  padding: 8px !important;
   background-color: whiteSmoke !important;
 }
-.hx .ie .xu .iq,
 .gB {
-  border-top: none !important;
   padding: 0 !important;
+}
+.amn {
+  height: 32px !important;
+}
+/* For original composer */
+.hx .h7 .ac5 .gB {
+  padding: 8px !important;
+}
+.ac5 .adB {
+  padding: 0px !important;
+  background-color: white !important;
+}
+.ej .aay .dW {
+  background-color: white !important;
+}
+/* For new composer */
+.hx .ie .xu .iq {
+  margin: 0 !important;
+  padding: 8px !important;
+}
+.adB {
+  margin: 0 !important;
+  padding: 8px !important;
 }
 .aC3 {
   background-color: whiteSmoke !important;
-}
-.amn {
-  height: 34px !important;
 }
 .aoY {
   padding: 0 8px 1px 1px !important;
