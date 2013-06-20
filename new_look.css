@@ -201,13 +201,10 @@ h1.ha {
 
 /* Add a frame to the profile picture */
 img.ajn {
-  background-color: white !important;
-  padding: 2px;
-  border: 1px solid #D8D8D8;
-  -webkit-border-radius: 3px;
-  -webkit-box-shadow: 0 0 1px rgba(0,0,0,.1);
-  -moz-box-shadow: 0 0 1px rgba(0,0,0,.1);
-  -box-shadow: 0 0 1px rgba(0,0,0,.1);
+  background-color: white;
+  padding: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* -webkit-border-radius: 2px; */
 }
 
 /* }}} */
