@@ -7,7 +7,6 @@
       "new_look.css"
     ]
     for(var i in options) {
-      console.debug(i)
       if(options[i]) {
         csses.push(i + ".css")
       }
